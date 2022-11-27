@@ -5,7 +5,7 @@ import com.codeborne.xlstest.XLS;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.opencsv.CSVReader;
 import org.junit.jupiter.api.Test;
-import ru.itone.Model.Order;
+import ru.itone.model.Order;
 
 import java.io.File;
 import java.io.InputStream;

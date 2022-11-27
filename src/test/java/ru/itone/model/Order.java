@@ -1,4 +1,4 @@
-package ru.itone.Model;
+package ru.itone.model;
 
 import java.util.ArrayList;
 
