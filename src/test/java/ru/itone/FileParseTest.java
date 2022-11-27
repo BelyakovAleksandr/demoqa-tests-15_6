@@ -64,9 +64,9 @@ public class FileParseTest {
         ObjectMapper objectMapper = new ObjectMapper();
         Order order = objectMapper.readValue(file, Order.class);
 
-        assertThat(order.FirstName).isEqualTo("Timur");
-        assertThat(order.LastName).isEqualTo("Maksyutov");
-        assertThat(order.Email).isEqualTo("tmaksyutov@example.com");
+        assertThat(order.FirstName).isEqualTo("Aleksandr");
+        assertThat(order.LastName).isEqualTo("Belyakov");
+        assertThat(order.Email).isEqualTo("abelyakov@example.com");
         assertThat(order.contents.get(0).productID).isEqualTo(99);
     }
 }
